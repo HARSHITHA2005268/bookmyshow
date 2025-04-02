@@ -31,6 +31,16 @@ const Home = () => {
 
   return (
     <div>
+      {/* Logo Section */}
+      <div className="text-center mt-3">
+        <img
+          src="https://bsmedia.business-standard.com/_media/bs/img/article/2013-03/08/full/1362740862-1177.jpg?im=FeatureCrop,size=(826,465)" // ✅ Replace with your logo URL
+          alt="BookMyShow Logo"
+          className="img-fluid"
+          style={{ width: "150px", height: "auto" }}
+        />
+      </div>
+
       {/* Welcome Banner */}
       <div
         className="d-flex justify-content-center align-items-center text-white text-center"
