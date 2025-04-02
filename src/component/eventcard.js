@@ -14,4 +14,4 @@ const EventCard = ({ image, title, date, location }) => {
   );
 };
 
-export default Eventcard;
+export default EventCard;
